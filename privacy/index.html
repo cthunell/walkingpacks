@@ -16,18 +16,19 @@
 <body>
 <main>
   <h1>WalkingPacks Privacy Policy</h1>
-  <p class="date">Effective date: October 19, 2026</p>
+  <p class="date">Effective date: October 26, 2026</p>
   <p>WalkingPacks is a game that turns the steps you walk into packs of collectible cards. This policy explains what data the app uses, where it goes, who can see it, and what we do with it.</p>
 
   <h2>Data we use</h2>
   <ul>
     <li><strong>Step count from Apple Health.</strong> With your permission, WalkingPacks reads your step count from Apple Health (HealthKit). The app does not read any other health data and never writes to Apple Health.</li>
     <li><strong>Hourly step totals.</strong> To credit packs, the app sends your step totals grouped by hour (for example, "1,240 steps between 9 and 10 AM") to the WalkingPacks game server. Individual step samples, locations, and other health data are not sent.</li>
-    <li><strong>Game progress.</strong> Your step balance, packs, cards, graded slabs, trades, and grading queue are stored on the game server so your collection is kept safe and the game rules are applied fairly.</li>
+    <li><strong>Game progress.</strong> Your step balance, packs, cards, graded cards, trades, and grading queue are stored on the game server so your collection is kept safe and the game rules are applied fairly.</li>
     <li><strong>An anonymous account.</strong> On first launch the app creates an anonymous account for you. It has no name, email, or password. It is identified only by a random ID stored on your device. You can play everything solo on this account.</li>
     <li><strong>Sign in with Apple (optional).</strong> If you choose to sign in with Apple, your account is linked to the user ID Apple provides for WalkingPacks. The app does not ask Apple for your name or email address. If Apple ever shares an email address with us, it is used only to identify your account and is never shown to other players.</li>
     <li><strong>Your profile (only if you sign in).</strong> Signing in lets you choose a username, an avatar and a showcase from your collection. See "Who can see your data" below.</li>
     <li><strong>Reports and blocks.</strong> If you report or block another player, we store who reported or blocked whom, the reason you picked, and any details you write, so we can review reports and keep blocked players apart.</li>
+    <li><strong>Push notification token (only if you allow notifications).</strong> If you allow notifications, your device's push token is stored with your account. It is used only to tell you when a trade completes, and the notifications are delivered through Apple Push Notification service.</li>
     <li><strong>Your time zone</strong>, so days and hours are counted correctly.</li>
   </ul>
   <p>Like most online services, the server's hosting provider may briefly keep standard technical logs (such as IP address and request times) for security and reliability.</p>
@@ -35,14 +36,15 @@
   <h2>Who can see your data</h2>
   <ul>
     <li>If you never sign in, nobody else can see anything about you.</li>
-    <li>If you sign in with Apple and choose a username, other players who are signed in with Apple can find you by searching your username and see your profile: your username, avatar, showcase, the month you joined, and your collection (cards and graded slabs, including slab serial numbers).</li>
+    <li>If you sign in with Apple and choose a username, other players who are signed in with Apple can find you by searching your username and see your profile: your username, avatar, showcase, the month you joined, and your collection (cards and graded cards, including graded card serial numbers).</li>
+    <li>Trade offers you post on the open market are visible to other signed-in players, along with your username, until the offer is taken or removed.</li>
     <li>Your total step count and average steps per day since joining also appear on your profile unless you turn off <strong>Show my total steps on my profile</strong> in Settings. Hourly step data is never shown to anyone.</li>
     <li>Players you block, and players who block you, can't find or see each other's profiles.</li>
     <li>Reported players are not told who reported them.</li>
   </ul>
 
   <h2>Where data is stored</h2>
-  <p>The game server runs on Supabase, a cloud database provider that stores and processes data on our behalf. The app also keeps some data on your device, such as your settings and a copy of your recent game state.</p>
+  <p>The game server runs on Supabase, a cloud database provider that stores and processes data on our behalf. Apple handles Sign in with Apple and delivers push notifications. The app also keeps some data on your device, such as your settings and a copy of your recent game state.</p>
 
   <h2>How we use it</h2>
   <p>Your data is used only to run the game: crediting steps, awarding and opening packs, keeping your collection and grading progress, showing your profile to other signed-in players if you set one up, and reviewing reports to keep the game safe.</p>
@@ -52,14 +54,15 @@
     <li>No advertising. Apple Health data is never used for advertising or marketing.</li>
     <li>No analytics or tracking.</li>
     <li>No selling of data.</li>
-    <li>No sharing with third parties, other than the hosting provider that runs the server for us. Your profile is visible only to other signed-in WalkingPacks players, as described above.</li>
+    <li>No sharing with third parties, other than the service providers that run the game for us: Supabase (hosting the server) and Apple (Sign in with Apple and push notification delivery). Your profile is visible only to other signed-in WalkingPacks players, as described above.</li>
   </ul>
 
   <h2>Your choices</h2>
   <ul>
     <li>You can turn off WalkingPacks' access to step data at any time in the Health app (Sharing → Apps → WalkingPacks) or in iOS Settings. No new steps are sent after that.</li>
+    <li>Notifications are optional. You can turn them off at any time in iOS Settings → Notifications → WalkingPacks.</li>
     <li>Signing in and having a profile are optional. You can hide your step totals, change your avatar and showcase, and block or report players at any time.</li>
-    <li><strong>Delete your account in the app:</strong> Settings → Delete Account permanently deletes your account and everything stored for it on the server, including your profile, username, cards, packs, slabs, step history, blocks, and reports you made. The app then starts you on a new, empty anonymous account. You can also email us to request deletion.</li>
+    <li><strong>Delete your account in the app:</strong> Settings → Delete Account permanently deletes your account and everything stored for it on the server, including your profile, username, cards, packs, graded cards, trade offers, push notification tokens, step history, blocks, and reports you made. The app then starts you on a new, empty anonymous account. You can also email us to request deletion.</li>
   </ul>
 
   <h2>Children</h2>
